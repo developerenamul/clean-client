@@ -68,7 +68,7 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <Link to="/" className="btn btn-ghost text-xl">
+        <Link to="/" className="md:btn md:btn-ghost cursor-pointer md:text-xl">
           CleanUpHub
         </Link>
       </div>
