@@ -105,7 +105,7 @@ const Navbar = () => {
             {dropdownOpen && (
               <ul className="absolute right-0 mt-2 w-36 bg-white border rounded shadow-lg py-2 z-10">
                 <li className="px-4 py-2 hover:bg-gray-100">
-                  <Link to="/profile">Profile</Link>
+                  <Link>Profile</Link>
                 </li>
                 <li
                   onClick={handleLogout}
