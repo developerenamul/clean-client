@@ -1,16 +1,81 @@
-# React + Vite
+# 🧹 CleanUpHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CleanUpHub** is a community-driven web platform where users can report, track, and resolve local issues such as garbage problems, pollution, or unclean surroundings. The goal is to promote cleaner environments through user participation and volunteering efforts.
 
-Currently, two official plugins are available:
+🌐 **Live Site:** [CleanUpHub on Netlify](https://exquisite-stroopwafel-9ac37f.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🏠 **Homepage Animation:** Beautiful hero section with interactive animation (Lottie React + Typewriter).
+- 🧾 **Report Issues:** Authenticated users can add new issues with details and images.
+- 🔍 **View Issues:** Explore all community-reported issues.
+- 👤 **User Dashboard:** Track your submitted issues and contributions.
+- 🤝 **Volunteer Section:** Encourage users to participate and help resolve issues.
+- 📊 **Community Stats:** Real-time stats showing progress and activity.
+- 🔐 **Firebase Authentication:** Secure login and registration (Email/Google Sign-In).
+- 🧭 **Responsive Navbar:** Dynamic menu with user profile and logout dropdown.
+- 🎉 **Toast Notifications:** Instant feedback for user actions like login, logout, and issue submission.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+**Frontend:**
+
+- React.js (Vite)
+- Tailwind CSS + DaisyUI
+- Lottie React
+- React Simple Typewriter
+- React Router DOM
+
+**Backend:**
+
+- Node.js
+- Express.js
+- MongoDB (Atlas)
+
+**Authentication:**
+
+- Firebase Authentication
+
+**Deployment:**
+
+- Frontend: Netlify
+- Backend: Render
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/developerenamul/clean-client.git
+
+cd cleanuphub-client
+
+npm install
+
+| Package                   | Description                             |
+| ------------------------- | --------------------------------------- |
+| `lottie-react`            | Adds animation to homepage hero section |
+| `react-simple-typewriter` | Creates typing text effects             |
+| `firebase`                | Handles user authentication             |
+| `react-router-dom`        | For routing between pages               |
+| `react-toastify`          | For showing success/error messages      |
+| `tailwindcss` + `daisyui` | For modern responsive UI design         |
+
+
+## 🧑‍💻 Developer Info
+
+👤 Developed by: Enamul Hasan
+💌 Email: enamul222hasan@gmail.com
+🌍 Location: Bangladesh
+🚀 GitHub: https://github.com/developerenamul/
+```
+
+## 💚 Thank You for Visiting CleanUpHub!
+
+“Let’s make our community cleaner, one report at a time.”
