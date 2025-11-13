@@ -60,7 +60,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact / Copyright */}
+        {/* Contact + Copyright */}
         <div className="space-y-3">
           <h2 className="text-lg font-semibold text-white mb-3">Contact</h2>
           <p className="text-gray-400 text-sm">Email: support@cleanuphub.com</p>
