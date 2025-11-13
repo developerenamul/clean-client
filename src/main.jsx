@@ -16,6 +16,7 @@ import AllIssues from "./pages/AllIssues.jsx";
 import MyContributions from "./pages/MyContributions.jsx";
 import MyIssues from "./pages/MyIssues.jsx";
 import NotFound from "./pages/NotFound.jsx";
+import Loader from "./components/Loader.jsx";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />,
         loader: () => fetch("http://localhost:5000/latestIssues"),
+        hydrateFallbackElement: <Loader></Loader>,
       },
       {
         path: "/issues",
@@ -35,6 +37,7 @@ const router = createBrowserRouter([
         path: "/all-issues",
         element: <AllIssues />,
         loader: () => fetch("http://localhost:5000/issues"),
+        hydrateFallbackElement: <Loader></Loader>,
       },
       {
         path: "/add-issue",
@@ -49,6 +52,7 @@ const router = createBrowserRouter([
         element: <IssuesDetails />,
         loader: ({ params }) =>
           fetch(`http://localhost:5000/issues/${params.id}`),
+        hydrateFallbackElement: <Loader></Loader>,
       },
       {
         path: "/my-contributions",
