@@ -78,6 +78,11 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-end flex gap-2">
+        <input
+          type="checkbox"
+          value="black"
+          className="toggle theme-controller"
+        />
         {!user && (
           <>
             <Link to="/login" className="btn">

@@ -4,3 +4,7 @@
 .active {
   border-bottom: 2px solid green;
 }
+
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, black;
+}
