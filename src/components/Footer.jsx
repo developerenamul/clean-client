@@ -1,6 +1,8 @@
 // Footer.jsx
 import { Link } from "react-router";
-
+import { FaFacebookF, FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-200 py-10 mt-12">
@@ -64,6 +66,37 @@ const Footer = () => {
         <div className="space-y-3">
           <h2 className="text-lg font-semibold text-white mb-3">Contact</h2>
           <p className="text-gray-400 text-sm">Email: support@cleanuphub.com</p>
+          {/* 🌐 Social Icons */}
+          <div className="flex gap-4 mt-4">
+            <a
+              href="#"
+              className="text-gray-400 hover:text-blue-500 transition"
+              aria-label="Facebook"
+            >
+              <FaFacebookF size={20} />
+            </a>
+            <a
+              href="#"
+              className="text-gray-400 hover:text-gray-200 transition"
+              aria-label="Twitter (X)"
+            >
+              <FaXTwitter size={20} />
+            </a>
+            <a
+              href="#"
+              className="text-gray-400 hover:text-red-500 transition"
+              aria-label="YouTube"
+            >
+              <FaYoutube size={20} />
+            </a>
+            <a
+              href="#"
+              className="text-gray-400 hover:text-pink-500 transition"
+              aria-label="Instagram"
+            >
+              <FaInstagram size={20} />
+            </a>
+          </div>
           <p className="text-gray-400 text-sm">
             &copy; {new Date().getFullYear()} CleanUpHub. All rights reserved.
           </p>
