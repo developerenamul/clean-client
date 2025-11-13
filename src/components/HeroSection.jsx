@@ -1,7 +1,7 @@
 import React from "react";
 import Lottie from "lottie-react";
 import { Typewriter } from "react-simple-typewriter";
-import animationData from "../assets/cleaning-animation.json"; // Lottie JSON file
+import animationData from "../assets/cleaning-animation.json";
 
 const HeroSection = () => {
   return (
